@@ -50,17 +50,17 @@ void	run_strategy(t_stack *a, t_stack *b, char *flag, t_bench *bench, char **nam
 {
 	if (ft_strncmp(flag, "--simple", 9) == 0)
 	{
-		name = "Simple / O(n^2)";
+		*name = "Simple / O(n^2)";
 		sort_simple(a, b, bench);
 	}
 	else if (ft_strncmp(flag, "--medium", 9) == 0)
 	{
-		name = "Medium / O(n*sqrt(n))";
+		*name = "Medium / O(n*sqrt(n))";
 		sort_medium(a, b, bench);
 	}
 	else if (ft_strncmp(flag, "--complex", 10) == 0)
 	{
-		name = "Complex / O(n log n)";
+		*name = "Complex / O(n log n)";
 		sort_complex(a, b, bench);
 	}
 	else

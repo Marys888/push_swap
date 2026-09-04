@@ -10,7 +10,9 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-static void	check_dublicates(int *values, int n)
+#include "push_swap.h"
+
+static void	check_duplicates(int *values, int n)
 {
 	int	i;
 	int	j;
@@ -29,18 +31,18 @@ static void	check_dublicates(int *values, int n)
 	}
 }
 
-void	fill_stack(t_stack a, int *values, int n)
+void	fill_stack(t_stack *a, int *values, int n)
 {
 	t_node	*node;
 	int		i;
 
-	check_dublicates(values, n);
+	check_duplicates(values, n);
 	a->top = NULL;
 	a->size = 0;
 	i = n - 1;
 	while (i >= 0)
 	{
-		node = stack_new_node[i];
+		node = stack_new_node(values[i]);
 		if (!node)
 			exit_error();
 		stack_push_front(a, node);

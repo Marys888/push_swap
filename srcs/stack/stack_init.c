@@ -14,9 +14,9 @@
 
 t_node	*stack_new_node(int value)
 {
-	t_node	node;
+	t_node	*node;
 
-	node = malloc(size_of(t_node));
+	node = malloc(sizeof(t_node));
 	if(!node)
 		return (NULL);
 	node->value = value;

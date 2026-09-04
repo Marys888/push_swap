@@ -14,8 +14,8 @@
 
 static int	count_mistakes(t_stack *a)
 {
-	t_node	outer;
-	t_node	inner;
+	t_node	*outer;
+	t_node	*inner;
 	int		mistakes;
 
 	mistakes = 0;
@@ -34,7 +34,7 @@ static int	count_mistakes(t_stack *a)
 	return (mistakes);
 }
 
-double	compute_disorder(t_stack_a)
+double	compute_disorder(t_stack *a)
 {
 	int	mistakes;
 	int	total_pairs;
@@ -45,5 +45,5 @@ double	compute_disorder(t_stack_a)
 		return (0.0);
 	mistakes = count_mistakes(a);
 	total_pairs = (n * (n-1)) / 2;
-	return (double)mistakes / (double)total_paors;
+	return (double)mistakes / (double)total_pairs;
 }

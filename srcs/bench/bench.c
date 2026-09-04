@@ -30,7 +30,7 @@ static void	print_disorder(double disorder)
 
 static void	print_op_counts(t_bench *bench)
 {
-	const char	*names[11] = {"sa", "sb", "ss", "pa", "pb",
+	 char	*names[11] = {"sa", "sb", "ss", "pa", "pb",
 			"ra", "rb", "rr", "rra", "rrb", "rrr"};
 	int			i;
 

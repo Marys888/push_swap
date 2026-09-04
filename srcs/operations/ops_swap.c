@@ -25,7 +25,7 @@ void	op_sa(t_stack *a)
 	if (second->next)
 		second->next->prev = first;
 	second->next = first;
-	second->prev->NULL;
+	second->prev = NULL;
 	first->prev = second;
 	a->top = second;
 }
@@ -43,7 +43,7 @@ void	op_sb(t_stack *b)
 	if (second->next)
 		second->next->prev = first;
 	second->next = first;
-	second->prev->NULL;
+	second->prev = NULL;
 	first->prev = second;
 	b->top = second;
 }

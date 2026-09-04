@@ -10,6 +10,8 @@
 /*                                                                            */
 /* ************************************************************************** */
 
+#include "push_swap.h"
+
 int	count_tokens(char **tokens)
 {
 	int	i;
@@ -42,7 +44,7 @@ static long	str_to_long_checked(const char *str)
 	result = 0;
 	sign = 1;
 	i = 0;
-	if (str[i] == '-' || strr[i] == '+')
+	if (str[i] == '-' || str[i] == '+')
 	{
 		if(str[i] == '-')
 			sign = -1;
@@ -55,7 +57,7 @@ static long	str_to_long_checked(const char *str)
 		if (str[i] < '0' || str[i] > '9')
 			exit_error();
 		result = result * 10 + (str[i] - '0');
-		if (result * sign > INT_MAX	|| result * sign < INT_MIT)
+		if (result * sign > INT_MAX	|| result * sign < INT_MIN)
 			exit_error();
 		i++;
 	}
@@ -64,7 +66,7 @@ static long	str_to_long_checked(const char *str)
 
 int	*tokens_to_values(char  **tokens, int n)
 {
-	int	values;
+	int	*values;
 	int	i;
 
 	values = malloc(sizeof(int) * n);

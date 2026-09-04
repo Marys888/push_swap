@@ -12,7 +12,7 @@
 
 #include "push_swap.h"
 
-static int	sorted_copy(t_stack *a)
+static int	*sorted_copy(t_stack *a)
 {
 	int		*values;
 	t_node	*current;
@@ -73,7 +73,7 @@ void	assign_indexes(t_stack *a)
 	current = a->top;
 	while (current)
 	{
-		current->index = find_rank(sorted, a->size, current->value)
+		current->index = find_rank(sorted, a->size, current->value);
 		current = current->next;
 	}
 	free(sorted);

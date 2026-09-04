@@ -50,7 +50,7 @@ void	parse_args(int argc, char **argv, t_stack *a)
 
 	if (argc < 2)
 		return;
-	joined  = join_args(argc, argv);
+	joined  = join_arguments(argc, argv);
 	tokens  = ft_split(joined, ' ');
 	free(joined);
 	if (!tokens)
@@ -59,7 +59,7 @@ void	parse_args(int argc, char **argv, t_stack *a)
 	if (count == 0)
 		exit_error();
 	values = tokens_to_values(tokens, count);
-	free_tokens(tokens)
+	free_tokens(tokens);
 	fill_stack(a, values, count);
 	free(values);
 }

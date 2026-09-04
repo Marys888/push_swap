@@ -26,8 +26,8 @@ static void	rotate_stack(t_stack *s)
 	while (last->next)
 		last = last->next;
 	last->next = old_top;
-	old->top->prev = last;
-	old->top->next = NULL;
+	old_top->prev = last;
+	old_top->next = NULL;
 }
 
 void	op_ra(t_stack *a)
