@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   bench.c                                            :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: cathrinevarlamova <cathrinevarlamova@student.42.fr>  #+#  +:+     +#+*/
+/*   By: msievier <msievier@student.42wolfsburg.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2026-09-07 16:52:49 by cathrinevarlamova #+#    #+#             */
-/*   Updated: 2026-09-07 16:52:49 by cathrinevarlamova ###   ########.fr      */
+/*   Created: 2026/09/09 21:14:57 by msievier          #+#    #+#             */
+/*   Updated: 2026/09/09 21:19:53 by msievier         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -44,6 +44,7 @@ static void	print_strategy(int strategy, double disorder)
 		ft_putstr_fd("Strategy: Adaptive -> Complex (O(n log n))\n", 2);
 }
 
+void	print_operation_counts(t_bench *bench)
 {
 	ft_putstr_fd("sa: ", 2);
 	ft_putnbr_fd(bench->sa, 2);

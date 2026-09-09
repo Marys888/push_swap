@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   stack_utils.c                                      :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: cathrinevarlamova <cathrinevarlamova@student.42.fr>  #+#  +:+       +#+        */
+/*   By: msievier <msievier@student.42wolfsburg.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2026-09-03 16:34:15 by cathrinevarlamova #+#    #+#             */
-/*   Updated: 2026-09-03 16:34:15 by cathrinevarlamova ###   ########.fr       */
+/*   Created: 2026/09/09 21:18:05 by msievier          #+#    #+#             */
+/*   Updated: 2026/09/09 21:18:55 by msievier         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -90,4 +90,3 @@ void	print_stack(t_node *stack)
 		current = current->next;
 	}
 }
-

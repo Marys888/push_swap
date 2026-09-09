@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   stack.c                                            :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: cathrinevarlamova <cathrinevarlamova@student.42.fr>  #+#  +:+       +#+        */
+/*   By: msievier <msievier@student.42wolfsburg.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2026-09-03 14:59:56 by cathrinevarlamova #+#    #+#             */
-/*   Updated: 2026-09-03 14:59:56 by cathrinevarlamova ###   ########.fr       */
+/*   Created: 2026/09/09 21:18:11 by msievier          #+#    #+#             */
+/*   Updated: 2026/09/09 21:20:24 by msievier         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -98,4 +98,3 @@ void	free_stack(t_node **stack)
 	}
 	*stack = NULL;
 }
-

@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   parse.c                                            :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: cathrinevarlamova <cathrinevarlamova@student.42.fr>  #+#  +:+       +#+        */
+/*   By: msievier <msievier@student.42wolfsburg.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2026-09-06 19:46:34 by cathrinevarlamova #+#    #+#             */
-/*   Updated: 2026-09-06 19:46:34 by cathrinevarlamova ###   ########.fr       */
+/*   Created: 2026/09/09 21:16:50 by msievier          #+#    #+#             */
+/*   Updated: 2026/09/09 21:16:52 by msievier         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 

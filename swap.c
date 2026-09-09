@@ -1,12 +1,12 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   operations.c                                       :+:      :+:    :+:   */
+/*   swap.c                                             :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: cathrinevarlamova <cathrinevarlamova@student.42.fr>  #+#  +:+       +#+        */
+/*   By: msievier <msievier@student.42wolfsburg.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2026-09-06 17:10:04 by cathrinevarlamova #+#    #+#             */
-/*   Updated: 2026-09-06 17:10:04 by cathrinevarlamova ###   ########.fr       */
+/*   Created: 2026/09/09 21:18:16 by msievier          #+#    #+#             */
+/*   Updated: 2026/09/09 21:18:18 by msievier         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 

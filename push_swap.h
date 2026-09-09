@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   push_swap.h                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: cavarlam <cavarlam@student.42wolfsburg.    +#+  +:+       +#+        */
+/*   By: msievier <msievier@student.42wolfsburg.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2026/08/26 16:45:56 by cavarlam          #+#    #+#             */
-/*   Updated: 2026/09/02 16:37:23 by cavarlam         ###   ########.fr       */
+/*   Created: 2026/09/09 21:17:07 by msievier          #+#    #+#             */
+/*   Updated: 2026/09/09 21:17:09 by msievier         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 

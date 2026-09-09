@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   sort_complex.c                                     :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: cathrinevarlamova <cathrinevarlamova@student.42.fr>  #+#  +:+       +#+        */
+/*   By: msievier <msievier@student.42wolfsburg.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2026-09-06 18:55:26 by cathrinevarlamova #+#    #+#             */
-/*   Updated: 2026-09-06 18:55:26 by cathrinevarlamova ###   ########.fr       */
+/*   Created: 2026/09/09 21:17:40 by msievier          #+#    #+#             */
+/*   Updated: 2026/09/09 21:17:42 by msievier         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 

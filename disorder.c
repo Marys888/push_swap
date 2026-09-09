@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   disorder.c                                         :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: cathrinevarlamova <cathrinevarlamova@student.42.fr>  #+#  +:+       +#+        */
+/*   By: msievier <msievier@student.42wolfsburg.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2026-09-06 23:44:51 by cathrinevarlamova #+#    #+#             */
-/*   Updated: 2026-09-06 23:44:51 by cathrinevarlamova ###   ########.fr       */
+/*   Created: 2026/09/09 21:15:42 by msievier          #+#    #+#             */
+/*   Updated: 2026/09/09 21:15:44 by msievier         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
