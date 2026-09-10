@@ -35,7 +35,7 @@ Uses indexed values and divides the input into manageable groups. Elements are m
 
 ### Complex
 
-Designed for larger inputs. It uses the positions of elements in the stacks to choose between rotations and reverse rotations, aiming to minimize the number of operations required to move elements.
+uses a binary LSD radix sort based on the normalized indexes. For each bit position, elements with a 0 bit are pushed from stack A to stack B, while elements with a 1 bit are rotated in stack A. After processing all elements for the current bit, the elements in stack B are pushed back to stack A. This process is repeated for every bit of the largest index.
 
 ### Adaptive
 
